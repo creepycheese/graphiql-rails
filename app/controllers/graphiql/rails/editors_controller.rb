@@ -2,6 +2,7 @@ module GraphiQL
   module Rails
     class EditorsController < ActionController::Base
       def show
+        render file: 'graphiql/rails/editors/show'
       end
 
       helper_method :graphql_endpoint_path
