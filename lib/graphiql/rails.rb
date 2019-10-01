@@ -1,5 +1,5 @@
 require "rails"
-
+require_relative "../../app/controllers/graphiql/rails/editors_controller"
 if ActiveSupport::Inflector.method(:inflections).arity == 0
   # Rails 3 does not take a language in inflections.
   ActiveSupport::Inflector.inflections do |inflect|
